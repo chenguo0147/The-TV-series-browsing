@@ -1,0 +1,130 @@
+html {
+	font-size: 62.5%;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	border: none;
+	list-style: none;
+	box-sizing: border-box;
+	outline: none;
+	-webkit-appearance: none;
+	-webkit-text-size-adjust:none
+}
+
+ul {
+	text-indent: 0;
+	font-weight: normal;
+}
+
+body {
+	background-color: #fff;
+	font-size: 1.6rem;
+	font-family: 'Microsoft YaHei', Verdana, Arial, Helvetica, sans-serif;
+	color: #666;
+	overflow-x: hidden;
+	line-height: 1.6;
+}
+
+
+/*覆盖浏览器默认样式*/
+
+a {
+	text-decoration: none;
+}
+
+a:hover,
+a:focus {
+	text-decoration: none !important;
+}
+
+a,
+button,
+input {
+	-webkit-tap-highlight-color: rgba(255, 0, 0, 0);
+}
+
+
+/*共用样式*/
+
+.font_w {
+	font-weight: bold;
+}
+
+.img_wrap>img {
+	width: 100%;
+	display: block;
+}
+
+.div_wrap {
+	width: 100%;
+}
+
+.inline_block {
+	display: inline-block;
+}
+
+.block_block {
+	display: block;
+}
+
+.float_l {
+	float: left;
+}
+
+.float_r {
+	float: right;
+}
+
+.text_overflow {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.position_rel {
+	position: relative
+}
+
+.clear_fix:after,
+.clear_fix:before {
+	content: "";
+	display: block;
+	clear: both;
+}
+.w-container {
+	max-width: 1000px;
+	margin: auto;
+}
+
+.w-silde {
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+.w-center{
+	text-align: center;
+}
+.last_border{
+	border-right: none;
+}
+ul:after, ul:before{
+	content: "";
+	display: block;
+	clear: both;
+}
+.global_ul li{
+	display: inline-block;
+	float: left;
+}
+.part{
+	margin-top: 50px;
+	/*margin-bottom: 100px;*/
+	padding-bottom: 50px;
+}
+.global_link_top{
+	margin-top: 30px;
+}
+.part_bg{
+	background: #f7f7f7;
+}
